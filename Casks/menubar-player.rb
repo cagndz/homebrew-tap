@@ -1,6 +1,6 @@
 cask "menubar-player" do
   version "0.1.0"
-  sha256 "e5dcd4a4079beb704c5cd78e863f0e4e34768759c584731a0bce1792cf36eb94"
+  sha256 "982d9b0d14a15fd8314735a9e0390be3422990bae3d2bb5aa405d3fef64e021c"
 
   url "https://github.com/cagndz/menubar-player/releases/download/v#{version}/Menubar-Player-#{version}.dmg"
   name "Menubar Player"
@@ -18,7 +18,6 @@ cask "menubar-player" do
   zap trash: [
     "~/Library/Application Support/com.cagndz.menubar-player",
     "~/Library/Caches/com.cagndz.menubar-player",
-    "~/Library/LaunchAgents/Menubar Player.plist",
     "~/Library/WebKit/com.cagndz.menubar-player",
   ]
 end
