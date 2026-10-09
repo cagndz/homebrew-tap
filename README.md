@@ -4,7 +4,8 @@ Apps by [Carlos Agúndez](https://github.com/cagndz), installable with [Homebrew
 
 ## Menubar Player
 
-A YouTube audio player that lives in the macOS menu bar. Apple Silicon only.
+Plays only the audio of long YouTube videos — podcasts, DJ sets, live recordings, full albums — from the macOS
+menu bar. For Apple Silicon Macs with macOS 14 or later.
 
 ```sh
 brew install --cask cagndz/tap/menubar-player
