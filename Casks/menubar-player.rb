@@ -1,6 +1,6 @@
 cask "menubar-player" do
-  version "0.1.2"
-  sha256 "a57894e0ea9abec00c67ee83c0e4060cf5511ce2e35c0bdf912a9775e815c4af"
+  version "0.2.0"
+  sha256 "22f132299b99c02c94f20ad47ef084482be2ee389d120da544296e82745de795"
 
   url "https://github.com/cagndz/menubar-player/releases/download/v#{version}/Menubar-Player-#{version}.dmg"
   name "Menubar Player"
